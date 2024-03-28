@@ -53,7 +53,6 @@
 ## 配置页面访问密码
 
 > 配置密码后，用户需要在设置页手动填写访问码才可以正常聊天，否则会通过消息提示未授权状态。
-
 > **警告**：请务必将密码的位数设置得足够长，最好 7 位以上，否则[会被爆破](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)。
 
 本项目提供有限的权限控制功能，请在 Vercel 项目控制面板的环境变量页增加名为 `CODE` 的环境变量，值为用英文逗号分隔的自定义密码：
@@ -81,7 +80,6 @@ OpanAI 密钥，你在 openai 账户页面申请的 api key，使用英文逗号
 ### `BASE_URL` （可选）
 
 > Default: `https://api.openai.com`
-
 > Examples: `http://your-openai-proxy.com`
 
 OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填写此选项。
@@ -163,7 +161,6 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 ### 容器部署 （推荐）
 
 > Docker 版本需要在 20 及其以上，否则会提示找不到镜像。
-
 > ⚠️ 注意：docker 版本在大多数时间都会落后最新的版本 1 到 2 天，所以部署后会持续出现“存在更新”的提示，属于正常现象。
 
 ```shell

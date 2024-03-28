@@ -1,13 +1,11 @@
 <div align="center">
 <img src="./docs/images/head-cover.png" alt="icon"/>
 
-<h1 align="center">NextChat (ChatGPT Next Web)</h1>
-
-English / [简体中文](./README_CN.md)
+<h1 align="center">ChatGPT Next Web</h1>
 
 One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+<!-- 一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。 -->
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
@@ -16,7 +14,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 [Web App](https://app.nextchat.dev/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Twitter](https://twitter.com/NextChatDev)
 
-[网页版](https://app.nextchat.dev/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues)
+<!-- [网页版](https://app.nextchat.dev/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) -->
 
 [web-url]: https://chatgpt.nextweb.fun
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
@@ -67,7 +65,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 - 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
 - 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
 
-## 主要功能
+<!-- ## 主要功能
 
 - 在 1 分钟内使用 Vercel **免费一键部署**
 - 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
@@ -94,14 +92,14 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 ## 最新动态
 
 - 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
+- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：<https://github.com/mushan0x0/AI0x0.com>
 - 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
 - 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
-- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
+- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。 -->
 
 ## Get Started
 
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
+<!-- > [简体中文 > 如何开始使用](README_CN.md#开始使用) -->
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
@@ -110,13 +108,13 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 ## FAQ
 
-[简体中文 > 常见问题](./docs/faq-cn.md)
+<!-- [简体中文 > 常见问题](docs/faq-cn.md) -->
 
-[English > FAQ](./docs/faq-en.md)
+[English > FAQ](docs/faq-en.md)
 
 ## Keep Updated
 
-> [简体中文 > 如何保持代码更新](./README_CN.md#保持更新)
+<!-- > [简体中文 > 如何保持代码更新](README_CN.md#保持更新) -->
 
 If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
 
@@ -144,7 +142,7 @@ You can star or watch this project or follow author to get release notifications
 
 ## Access Password
 
-> [简体中文 > 如何增加访问密码](./README_CN.md#配置页面访问密码)
+<!-- > [简体中文 > 如何增加访问密码](README_CN.md#配置页面访问密码) -->
 
 This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
 
@@ -156,7 +154,7 @@ After adding or modifying this environment variable, please redeploy the project
 
 ## Environment Variables
 
-> [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
+<!-- > [简体中文 > 如何配置 api key、访问密码、接口代理](README_CN.md#环境变量) -->
 
 ### `CODE` (optional)
 
@@ -169,7 +167,6 @@ Your openai api key, join multiple api keys with comma.
 ### `BASE_URL` (optional)
 
 > Default: `https://api.openai.com`
-
 > Examples: `http://your-openai-proxy.com`
 
 Override openai api request base url.
@@ -239,7 +236,7 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-> [简体中文 > 如何进行二次开发](./README_CN.md#开发)
+<!-- > [简体中文 > 如何进行二次开发](README_CN.md#开发) -->
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
@@ -264,7 +261,7 @@ yarn dev
 
 ## Deployment
 
-> [简体中文 > 如何部署到私人服务器](./README_CN.md#部署)
+<!-- > [简体中文 > 如何部署到私人服务器](README_CN.md#部署) -->
 
 ### Docker (Recommended)
 
@@ -305,7 +302,7 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ## Documentation
 
-> Please go to the [docs][./docs] directory for more documentation instructions.
+> Please go to the [docs](docs) directory for more documentation instructions.
 
 - [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
 - [Frequent Ask Questions](./docs/faq-en.md)
@@ -323,7 +320,7 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 If you want to add a new translation, read this [document](./docs/translation.md).
 
-## Donation
+<!-- ## Donation
 
 [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
@@ -364,9 +361,9 @@ If you want to add a new translation, read this [document](./docs/translation.md
 ### Contributors
 
 <a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
-</a>
+  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" alt=""/>
+</a> -->
 
 ## LICENSE
 
-[MIT](https://opensource.org/license/mit/)
+ChatGPT Next Web is licensed under [GNU General Public License v3.0](LICENSE).
