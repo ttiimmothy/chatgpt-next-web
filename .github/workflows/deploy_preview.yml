@@ -5,7 +5,7 @@ on:
     types:
       # - opened
       - synchronize
-      - reopened
+      # - reopened
 
 env:
   VERCEL_TEAM: ${{ secrets.VERCEL_TEAM }}
