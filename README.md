@@ -33,6 +33,8 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 </div>
 
+[![Removedeploypreview](https://github.com/ttiimmothy/chatgpt-next-website/actions/workflows/remove_deploy_preview.yml/badge.svg)](https://github.com/ttiimmothy/chatgpt-next-website/actions/workflows/remove_deploy_preview.yml)
+
 ## Features
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
